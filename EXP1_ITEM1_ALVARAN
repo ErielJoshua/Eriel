@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+
+{
+  cout << "ticketPrice          "; cout << "numberOfTicketsSold" << endl;
+  cout << "$250                 "; cout << "5750" << endl;
+  cout << "$100                 "; cout << "28000" << endl;
+  cout << "$50                 "; cout << "35750" << endl;
+  cout << "$25                 "; cout << "18750" << endl;
+  cout <<endl;
+  cout << "Number of Tickets Sold:      " << 5750 + 28000 + 35750 + 18750 << endl;
+  cout << "Total Sale Amount    " <<"$"; cout << (250*5750) + (100*28000) + (50*35750) + (25*18750) << end;
+  cout <<endl;
+  
+  system("pause");
+  return 0;
+}
