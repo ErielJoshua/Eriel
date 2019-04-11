@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+
+{
+  short MASS;
+  short DENSITY;
+  
+  cout << "Enter the mass, in grams, and the density, in gram per cubic centimeters" << endl;
+  
+  cin >> MASS;
+  cin >> DENSITY;
+  
+  cout << "Mass:        " << MASS << "  g" << endl;
+  cout << "Density      " << DENSITY << "  g/cm^3" << endl;
+  cout << "Volume:      " << MASS / DENSITY << "  cm^3" << endl;
+  
+  system("pause");
+  return 0;
+  
+}
